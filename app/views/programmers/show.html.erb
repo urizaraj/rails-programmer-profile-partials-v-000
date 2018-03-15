@@ -12,10 +12,6 @@
 
   <div class="col-md-9 programmer-info">
 
-    <!-- <p>
-    <strong>Home Country:</strong> <%= @programmer.home_country %><br>
-    </p> -->
-
     <%= render partial: 'attribute', locals: { programmer: @programmer, attribute: :home_country } %>
 
     <%= render partial: 'attribute', locals: { programmer: @programmer, attribute: :quote } %>
